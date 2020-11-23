@@ -58,6 +58,9 @@
 		9F1D8A68256BD9BF00BB589B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FFCB6D4256BDB8200E53F6D /* TestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
 		9FFCB6E8256BDE1D00E53F6D /* TestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewModel.swift; sourceTree = "<group>"; };
+		9FFCB6F3256BDFF900E53F6D /* NIXGONFONTS L 2.0.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NIXGONFONTS L 2.0.ttf"; path = "../../../../../Downloads/NIXGONFONTS L 2.0.ttf"; sourceTree = "<group>"; };
+		9FFCB6F4256BE00500E53F6D /* NIXGONFONTS M 2.0.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NIXGONFONTS M 2.0.ttf"; path = "../../../../../Downloads/NIXGONFONTS M 2.0.ttf"; sourceTree = "<group>"; };
+		9FFCB6F5256BE00A00E53F6D /* NIXGONFONTS B 2.0.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NIXGONFONTS B 2.0.ttf"; path = "../../../../../Downloads/NIXGONFONTS B 2.0.ttf"; sourceTree = "<group>"; };
 		A91E85DFCE37F20699403B1A /* Pods_SW_HackertonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SW_HackertonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFF10A48CC1A6490DD3E2B4F /* Pods-SW-Hackerton-SW-HackertonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SW-Hackerton-SW-HackertonUITests.release.xcconfig"; path = "Target Support Files/Pods-SW-Hackerton-SW-HackertonUITests/Pods-SW-Hackerton-SW-HackertonUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F05F9E21CE72A399232BE543 /* Pods-SW-Hackerton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SW-Hackerton.debug.xcconfig"; path = "Target Support Files/Pods-SW-Hackerton/Pods-SW-Hackerton.debug.xcconfig"; sourceTree = "<group>"; };
@@ -214,6 +217,9 @@
 		9FFCB6DB256BDC0C00E53F6D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9FFCB6F5256BE00A00E53F6D /* NIXGONFONTS B 2.0.ttf */,
+				9FFCB6F4256BE00500E53F6D /* NIXGONFONTS M 2.0.ttf */,
+				9FFCB6F3256BDFF900E53F6D /* NIXGONFONTS L 2.0.ttf */,
 				9F1D8A52256BD9BF00BB589B /* Info.plist */,
 			);
 			path = "Supporting Files";
