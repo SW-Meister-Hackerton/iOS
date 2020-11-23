@@ -1,0 +1,806 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BBD4B8F03E6672797F8BCB4 /* Pods_SW_Hackerton_SW_HackertonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF5203EFB43CF5AC88D0118E /* Pods_SW_Hackerton_SW_HackertonUITests.framework */; };
+		9F1D8A45256BD9BD00BB589B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1D8A44256BD9BD00BB589B /* AppDelegate.swift */; };
+		9F1D8A49256BD9BD00BB589B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1D8A48256BD9BD00BB589B /* ViewController.swift */; };
+		9F1D8A4C256BD9BD00BB589B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F1D8A4A256BD9BD00BB589B /* Main.storyboard */; };
+		9F1D8A4E256BD9BF00BB589B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F1D8A4D256BD9BF00BB589B /* Assets.xcassets */; };
+		9F1D8A51256BD9BF00BB589B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F1D8A4F256BD9BF00BB589B /* LaunchScreen.storyboard */; };
+		9F1D8A5C256BD9BF00BB589B /* SW_HackertonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1D8A5B256BD9BF00BB589B /* SW_HackertonTests.swift */; };
+		9F1D8A67256BD9BF00BB589B /* SW_HackertonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1D8A66256BD9BF00BB589B /* SW_HackertonUITests.swift */; };
+		9FFCB6D5256BDB8200E53F6D /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFCB6D4256BDB8200E53F6D /* TestModel.swift */; };
+		9FFCB6E9256BDE1D00E53F6D /* TestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFCB6E8256BDE1D00E53F6D /* TestViewModel.swift */; };
+		A29E98700BE8937F1C0F67B7 /* Pods_SW_HackertonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A91E85DFCE37F20699403B1A /* Pods_SW_HackertonTests.framework */; };
+		E0E3B1F9ED829D5750EB995C /* Pods_SW_Hackerton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50C2771EB4A82BC5147C9209 /* Pods_SW_Hackerton.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F1D8A58256BD9BF00BB589B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F1D8A39256BD9BD00BB589B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F1D8A40256BD9BD00BB589B;
+			remoteInfo = "SW-Hackerton";
+		};
+		9F1D8A63256BD9BF00BB589B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F1D8A39256BD9BD00BB589B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F1D8A40256BD9BD00BB589B;
+			remoteInfo = "SW-Hackerton";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A3436539B82B9AE79F2BA83 /* Pods-SW-HackertonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SW-HackertonTests.debug.xcconfig"; path = "Target Support Files/Pods-SW-HackertonTests/Pods-SW-HackertonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		50C2771EB4A82BC5147C9209 /* Pods_SW_Hackerton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SW_Hackerton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D987CC7625EEF68C80DFA08 /* Pods-SW-Hackerton-SW-HackertonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SW-Hackerton-SW-HackertonUITests.debug.xcconfig"; path = "Target Support Files/Pods-SW-Hackerton-SW-HackertonUITests/Pods-SW-Hackerton-SW-HackertonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		91E10FE86F8DEDC913AFAB41 /* Pods-SW-Hackerton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SW-Hackerton.release.xcconfig"; path = "Target Support Files/Pods-SW-Hackerton/Pods-SW-Hackerton.release.xcconfig"; sourceTree = "<group>"; };
+		9F1D8A41256BD9BD00BB589B /* SW-Hackerton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SW-Hackerton.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1D8A44256BD9BD00BB589B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F1D8A48256BD9BD00BB589B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F1D8A4B256BD9BD00BB589B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F1D8A4D256BD9BF00BB589B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F1D8A50256BD9BF00BB589B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F1D8A52256BD9BF00BB589B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F1D8A57256BD9BF00BB589B /* SW-HackertonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SW-HackertonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1D8A5B256BD9BF00BB589B /* SW_HackertonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SW_HackertonTests.swift; sourceTree = "<group>"; };
+		9F1D8A5D256BD9BF00BB589B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F1D8A62256BD9BF00BB589B /* SW-HackertonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SW-HackertonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1D8A66256BD9BF00BB589B /* SW_HackertonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SW_HackertonUITests.swift; sourceTree = "<group>"; };
+		9F1D8A68256BD9BF00BB589B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FFCB6D4256BDB8200E53F6D /* TestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
+		9FFCB6E8256BDE1D00E53F6D /* TestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewModel.swift; sourceTree = "<group>"; };
+		A91E85DFCE37F20699403B1A /* Pods_SW_HackertonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SW_HackertonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF10A48CC1A6490DD3E2B4F /* Pods-SW-Hackerton-SW-HackertonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SW-Hackerton-SW-HackertonUITests.release.xcconfig"; path = "Target Support Files/Pods-SW-Hackerton-SW-HackertonUITests/Pods-SW-Hackerton-SW-HackertonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F05F9E21CE72A399232BE543 /* Pods-SW-Hackerton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SW-Hackerton.debug.xcconfig"; path = "Target Support Files/Pods-SW-Hackerton/Pods-SW-Hackerton.debug.xcconfig"; sourceTree = "<group>"; };
+		FA01DE03102F1030BEE493D1 /* Pods-SW-HackertonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SW-HackertonTests.release.xcconfig"; path = "Target Support Files/Pods-SW-HackertonTests/Pods-SW-HackertonTests.release.xcconfig"; sourceTree = "<group>"; };
+		FF5203EFB43CF5AC88D0118E /* Pods_SW_Hackerton_SW_HackertonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SW_Hackerton_SW_HackertonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F1D8A3E256BD9BD00BB589B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E3B1F9ED829D5750EB995C /* Pods_SW_Hackerton.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1D8A54256BD9BF00BB589B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A29E98700BE8937F1C0F67B7 /* Pods_SW_HackertonTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1D8A5F256BD9BF00BB589B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BBD4B8F03E6672797F8BCB4 /* Pods_SW_Hackerton_SW_HackertonUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58D751EE9FFA630786383381 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F05F9E21CE72A399232BE543 /* Pods-SW-Hackerton.debug.xcconfig */,
+				91E10FE86F8DEDC913AFAB41 /* Pods-SW-Hackerton.release.xcconfig */,
+				6D987CC7625EEF68C80DFA08 /* Pods-SW-Hackerton-SW-HackertonUITests.debug.xcconfig */,
+				BFF10A48CC1A6490DD3E2B4F /* Pods-SW-Hackerton-SW-HackertonUITests.release.xcconfig */,
+				4A3436539B82B9AE79F2BA83 /* Pods-SW-HackertonTests.debug.xcconfig */,
+				FA01DE03102F1030BEE493D1 /* Pods-SW-HackertonTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		78101A7994C548C64C516AA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50C2771EB4A82BC5147C9209 /* Pods_SW_Hackerton.framework */,
+				FF5203EFB43CF5AC88D0118E /* Pods_SW_Hackerton_SW_HackertonUITests.framework */,
+				A91E85DFCE37F20699403B1A /* Pods_SW_HackertonTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F1D8A38256BD9BD00BB589B = {
+			isa = PBXGroup;
+			children = (
+				9F1D8A43256BD9BD00BB589B /* SW-Hackerton */,
+				9F1D8A5A256BD9BF00BB589B /* SW-HackertonTests */,
+				9F1D8A65256BD9BF00BB589B /* SW-HackertonUITests */,
+				9F1D8A42256BD9BD00BB589B /* Products */,
+				58D751EE9FFA630786383381 /* Pods */,
+				78101A7994C548C64C516AA0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9F1D8A42256BD9BD00BB589B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F1D8A41256BD9BD00BB589B /* SW-Hackerton.app */,
+				9F1D8A57256BD9BF00BB589B /* SW-HackertonTests.xctest */,
+				9F1D8A62256BD9BF00BB589B /* SW-HackertonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F1D8A43256BD9BD00BB589B /* SW-Hackerton */ = {
+			isa = PBXGroup;
+			children = (
+				9FFCB6DB256BDC0C00E53F6D /* Supporting Files */,
+				9FFCB6DA256BDBE700E53F6D /* Resource */,
+				9FFCB6D9256BDB8E00E53F6D /* Source */,
+				9F1D8A44256BD9BD00BB589B /* AppDelegate.swift */,
+				9F1D8A4D256BD9BF00BB589B /* Assets.xcassets */,
+			);
+			path = "SW-Hackerton";
+			sourceTree = "<group>";
+		};
+		9F1D8A5A256BD9BF00BB589B /* SW-HackertonTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F1D8A5B256BD9BF00BB589B /* SW_HackertonTests.swift */,
+				9F1D8A5D256BD9BF00BB589B /* Info.plist */,
+			);
+			path = "SW-HackertonTests";
+			sourceTree = "<group>";
+		};
+		9F1D8A65256BD9BF00BB589B /* SW-HackertonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F1D8A66256BD9BF00BB589B /* SW_HackertonUITests.swift */,
+				9F1D8A68256BD9BF00BB589B /* Info.plist */,
+			);
+			path = "SW-HackertonUITests";
+			sourceTree = "<group>";
+		};
+		9FFCB6D1256BDB5D00E53F6D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9F1D8A4A256BD9BD00BB589B /* Main.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		9FFCB6D2256BDB6300E53F6D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9FFCB6D4256BDB8200E53F6D /* TestModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9FFCB6D3256BDB6B00E53F6D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9F1D8A48256BD9BD00BB589B /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9FFCB6D9256BDB8E00E53F6D /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				9FFCB6E7256BDE0C00E53F6D /* ViewModel */,
+				9FFCB6D1256BDB5D00E53F6D /* UI */,
+				9FFCB6D2256BDB6300E53F6D /* Model */,
+				9FFCB6D3256BDB6B00E53F6D /* ViewController */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		9FFCB6DA256BDBE700E53F6D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9F1D8A4F256BD9BF00BB589B /* LaunchScreen.storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		9FFCB6DB256BDC0C00E53F6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F1D8A52256BD9BF00BB589B /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9FFCB6E7256BDE0C00E53F6D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9FFCB6E8256BDE1D00E53F6D /* TestViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F1D8A40256BD9BD00BB589B /* SW-Hackerton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F1D8A6B256BD9BF00BB589B /* Build configuration list for PBXNativeTarget "SW-Hackerton" */;
+			buildPhases = (
+				CE8F10DFD726495F185DC25C /* [CP] Check Pods Manifest.lock */,
+				9F1D8A3D256BD9BD00BB589B /* Sources */,
+				9F1D8A3E256BD9BD00BB589B /* Frameworks */,
+				9F1D8A3F256BD9BD00BB589B /* Resources */,
+				DDBF57886068EB884CC92E5D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SW-Hackerton";
+			productName = "SW-Hackerton";
+			productReference = 9F1D8A41256BD9BD00BB589B /* SW-Hackerton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F1D8A56256BD9BF00BB589B /* SW-HackertonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F1D8A6E256BD9BF00BB589B /* Build configuration list for PBXNativeTarget "SW-HackertonTests" */;
+			buildPhases = (
+				F6AF3E2E870CD274CCA66B0A /* [CP] Check Pods Manifest.lock */,
+				9F1D8A53256BD9BF00BB589B /* Sources */,
+				9F1D8A54256BD9BF00BB589B /* Frameworks */,
+				9F1D8A55256BD9BF00BB589B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F1D8A59256BD9BF00BB589B /* PBXTargetDependency */,
+			);
+			name = "SW-HackertonTests";
+			productName = "SW-HackertonTests";
+			productReference = 9F1D8A57256BD9BF00BB589B /* SW-HackertonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F1D8A61256BD9BF00BB589B /* SW-HackertonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F1D8A71256BD9BF00BB589B /* Build configuration list for PBXNativeTarget "SW-HackertonUITests" */;
+			buildPhases = (
+				E5532621A6D794F1769123C3 /* [CP] Check Pods Manifest.lock */,
+				9F1D8A5E256BD9BF00BB589B /* Sources */,
+				9F1D8A5F256BD9BF00BB589B /* Frameworks */,
+				9F1D8A60256BD9BF00BB589B /* Resources */,
+				720B9D802734A0D8B192808E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F1D8A64256BD9BF00BB589B /* PBXTargetDependency */,
+			);
+			name = "SW-HackertonUITests";
+			productName = "SW-HackertonUITests";
+			productReference = 9F1D8A62256BD9BF00BB589B /* SW-HackertonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F1D8A39256BD9BD00BB589B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					9F1D8A40256BD9BD00BB589B = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					9F1D8A56256BD9BF00BB589B = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 9F1D8A40256BD9BD00BB589B;
+					};
+					9F1D8A61256BD9BF00BB589B = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 9F1D8A40256BD9BD00BB589B;
+					};
+				};
+			};
+			buildConfigurationList = 9F1D8A3C256BD9BD00BB589B /* Build configuration list for PBXProject "SW-Hackerton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F1D8A38256BD9BD00BB589B;
+			productRefGroup = 9F1D8A42256BD9BD00BB589B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F1D8A40256BD9BD00BB589B /* SW-Hackerton */,
+				9F1D8A56256BD9BF00BB589B /* SW-HackertonTests */,
+				9F1D8A61256BD9BF00BB589B /* SW-HackertonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F1D8A3F256BD9BD00BB589B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1D8A51256BD9BF00BB589B /* LaunchScreen.storyboard in Resources */,
+				9F1D8A4E256BD9BF00BB589B /* Assets.xcassets in Resources */,
+				9F1D8A4C256BD9BD00BB589B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1D8A55256BD9BF00BB589B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1D8A60256BD9BF00BB589B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		720B9D802734A0D8B192808E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SW-Hackerton-SW-HackertonUITests/Pods-SW-Hackerton-SW-HackertonUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SW-Hackerton-SW-HackertonUITests/Pods-SW-Hackerton-SW-HackertonUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SW-Hackerton-SW-HackertonUITests/Pods-SW-Hackerton-SW-HackertonUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE8F10DFD726495F185DC25C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SW-Hackerton-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDBF57886068EB884CC92E5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SW-Hackerton/Pods-SW-Hackerton-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SW-Hackerton/Pods-SW-Hackerton-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SW-Hackerton/Pods-SW-Hackerton-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5532621A6D794F1769123C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SW-Hackerton-SW-HackertonUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6AF3E2E870CD274CCA66B0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SW-HackertonTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F1D8A3D256BD9BD00BB589B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1D8A49256BD9BD00BB589B /* ViewController.swift in Sources */,
+				9F1D8A45256BD9BD00BB589B /* AppDelegate.swift in Sources */,
+				9FFCB6E9256BDE1D00E53F6D /* TestViewModel.swift in Sources */,
+				9FFCB6D5256BDB8200E53F6D /* TestModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1D8A53256BD9BF00BB589B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1D8A5C256BD9BF00BB589B /* SW_HackertonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1D8A5E256BD9BF00BB589B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1D8A67256BD9BF00BB589B /* SW_HackertonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F1D8A59256BD9BF00BB589B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F1D8A40256BD9BD00BB589B /* SW-Hackerton */;
+			targetProxy = 9F1D8A58256BD9BF00BB589B /* PBXContainerItemProxy */;
+		};
+		9F1D8A64256BD9BF00BB589B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F1D8A40256BD9BD00BB589B /* SW-Hackerton */;
+			targetProxy = 9F1D8A63256BD9BF00BB589B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F1D8A4A256BD9BD00BB589B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F1D8A4B256BD9BD00BB589B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F1D8A4F256BD9BF00BB589B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F1D8A50256BD9BF00BB589B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F1D8A69256BD9BF00BB589B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F1D8A6A256BD9BF00BB589B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F1D8A6C256BD9BF00BB589B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F05F9E21CE72A399232BE543 /* Pods-SW-Hackerton.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SW-Hackerton/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SW-Hackerton";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F1D8A6D256BD9BF00BB589B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91E10FE86F8DEDC913AFAB41 /* Pods-SW-Hackerton.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SW-Hackerton/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SW-Hackerton";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9F1D8A6F256BD9BF00BB589B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A3436539B82B9AE79F2BA83 /* Pods-SW-HackertonTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SW-HackertonTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SW-HackertonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SW-Hackerton.app/SW-Hackerton";
+			};
+			name = Debug;
+		};
+		9F1D8A70256BD9BF00BB589B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA01DE03102F1030BEE493D1 /* Pods-SW-HackertonTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SW-HackertonTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SW-HackertonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SW-Hackerton.app/SW-Hackerton";
+			};
+			name = Release;
+		};
+		9F1D8A72256BD9BF00BB589B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D987CC7625EEF68C80DFA08 /* Pods-SW-Hackerton-SW-HackertonUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SW-HackertonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SW-HackertonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SW-Hackerton";
+			};
+			name = Debug;
+		};
+		9F1D8A73256BD9BF00BB589B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFF10A48CC1A6490DD3E2B4F /* Pods-SW-Hackerton-SW-HackertonUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SW-HackertonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SW-HackertonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SW-Hackerton";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F1D8A3C256BD9BD00BB589B /* Build configuration list for PBXProject "SW-Hackerton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F1D8A69256BD9BF00BB589B /* Debug */,
+				9F1D8A6A256BD9BF00BB589B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F1D8A6B256BD9BF00BB589B /* Build configuration list for PBXNativeTarget "SW-Hackerton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F1D8A6C256BD9BF00BB589B /* Debug */,
+				9F1D8A6D256BD9BF00BB589B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F1D8A6E256BD9BF00BB589B /* Build configuration list for PBXNativeTarget "SW-HackertonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F1D8A6F256BD9BF00BB589B /* Debug */,
+				9F1D8A70256BD9BF00BB589B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F1D8A71256BD9BF00BB589B /* Build configuration list for PBXNativeTarget "SW-HackertonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F1D8A72256BD9BF00BB589B /* Debug */,
+				9F1D8A73256BD9BF00BB589B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F1D8A39256BD9BD00BB589B /* Project object */;
+}

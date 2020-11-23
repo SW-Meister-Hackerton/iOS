@@ -1,0 +1,6 @@
+framework module Pods_SW_Hackerton_SW_HackertonUITests {
+  umbrella header "Pods-SW-Hackerton-SW-HackertonUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
