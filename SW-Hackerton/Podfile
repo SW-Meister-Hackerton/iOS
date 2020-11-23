@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'SW-Hackerton' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for SW-Hackerton
+    pod 'RxSwift'
+    pod 'RxCocoa'
+    pod 'Alamofire', '~> 5.2'
+pod 'RxAlamofire'
+
+  target 'SW-HackertonTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'SW-HackertonUITests' do
+    # Pods for testing
+  end
+
+end
