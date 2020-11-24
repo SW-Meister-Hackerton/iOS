@@ -21,7 +21,7 @@ class LogInViewController: UIViewController {
     
     private let viewModel = LogInViewModel()
     private let disposeBag = DisposeBag()
-    //private let errorLabel = UILabel()
+    private let errorLabel = UILabel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -46,14 +46,17 @@ class LogInViewController: UIViewController {
         let output = viewModel.transform(input)
         
         output.isEnabled.drive(logInBtn.rx.isEnabled).disposed(by: disposeBag)
-    
-        output.result.emit( /*onNext: {[unowned self] error in
+
+        
+        output.result.emit( onNext: {[unowned self] error in
             view.addSubview(errorLabel)
             errorLabel.text = error
+            errorLabel.translatesAutoresizingMaskIntoConstraints = false
             errorLabel.topAnchor.constraint(equalTo: nameTxtField.bottomAnchor).isActive = true
             errorLabel.leadingAnchor.constraint(equalTo: nameTxtField.leadingAnchor).isActive = true
+            errorLabel.textColor = .red
             
-        },*/onCompleted: { [unowned self] in
+        },onCompleted: { [unowned self] in
             self.nextView(identifire: "main")
         }).disposed(by: disposeBag)
     }
@@ -64,6 +67,21 @@ extension UIViewController {
     func nextView(identifire: String) {
         let viewController = self.storyboard?.instantiateViewController(withIdentifier: identifire)
         navigationController?.pushViewController(viewController!, animated: true)
+    }
+    
+    func setButton(_ button: UIButton) {
+        var gradientLayer: CAGradientLayer!
+        
+        gradientLayer = CAGradientLayer()
+        gradientLayer.frame = button.bounds
+        gradientLayer.colors = UIColor.customRed.cgColor as! [Any]
+        gradientLayer.startPoint = CGPoint(x: 0, y: 0.5)
+        gradientLayer.endPoint = CGPoint(x: 1, y: 0.5)
+        gradientLayer.cornerRadius = 20
+        
+        button.layer.insertSublayer(gradientLayer, at: 0)
+        button.layer.cornerRadius = 20
+        button.tintColor = .white
     }
 }
 
