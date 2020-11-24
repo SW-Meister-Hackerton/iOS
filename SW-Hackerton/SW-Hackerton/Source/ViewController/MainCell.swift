@@ -13,6 +13,14 @@ class MainCell: UITableViewCell {
     @IBOutlet weak var roomName: UILabel!
     @IBOutlet weak var acceptanceBtn: UIButton!
     
+    var roomData:MainModel! {
+        didSet { setupView() }
+    }
+    
+    private func setupView(){
+        self.roomName.text = roomData.room
+    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

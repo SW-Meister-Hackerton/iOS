@@ -10,6 +10,7 @@ target 'SW-Hackerton' do
     pod 'RxCocoa'
     pod 'Alamofire', '~> 5.2'
 pod 'RxAlamofire'
+pod 'NSObject+Rx'
 
   target 'SW-HackertonTests' do
     inherit! :search_paths

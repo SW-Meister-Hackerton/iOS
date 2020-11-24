@@ -9,6 +9,7 @@ import UIKit
 
 import RxSwift
 import RxCocoa
+import NSObject_Rx
 
 class MainViewController: UIViewController {
     
@@ -22,8 +23,6 @@ class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        
         bindViewModel()
         registerCell()
     }
@@ -34,8 +33,7 @@ class MainViewController: UIViewController {
         
         output.loadApplyList
             .bind(to: tableView.rx.items(cellIdentifier: "MainCell", cellType: MainCell.self)) {(row, repository, cell) in
-                print(repository)
-                cell.roomName?.text = repository.room
+//                cell.roomData = repository
             }.disposed(by: disposeBag)
     }
     

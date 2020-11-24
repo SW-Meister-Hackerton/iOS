@@ -1,5 +1,7 @@
 PODS:
   - Alamofire (5.3.0)
+  - "NSObject+Rx (5.1.0)":
+    - RxSwift (~> 5.1)
   - RxAlamofire (5.6.2):
     - RxAlamofire/Core (= 5.6.2)
   - RxAlamofire/Core (5.6.2):
@@ -14,6 +16,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire (~> 5.2)
+  - "NSObject+Rx"
   - RxAlamofire
   - RxCocoa
   - RxSwift
@@ -21,6 +24,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
+    - "NSObject+Rx"
     - RxAlamofire
     - RxCocoa
     - RxRelay
@@ -28,11 +32,12 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: 2c792affbdc2f18016e08fdbcacd60aebe1ba593
+  "NSObject+Rx": fa6bbcc1ab1faa06b01466bc09b1e0692bbc5946
   RxAlamofire: aa949d345b1689eae02b7c7a217518878144f6df
   RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
   RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
   RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
 
-PODFILE CHECKSUM: fd2060bd2a1b7eac9af3f3a01785e66d6bd164dd
+PODFILE CHECKSUM: 1b2ef2988f0267c531b2183411bf3095d4d0010d
 
 COCOAPODS: 1.10.0

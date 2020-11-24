@@ -16,6 +16,7 @@ class MainAPI {
         httpClinet.post(api: .requestList, params: nil).map { (response, data) -> ([MainModel]?,StatusCode) in
             switch response.statusCode {
             case 200:
+                dump(data)
                 guard let data = try? JSONDecoder().decode([MainModel].self, from: data) else {
                     return (nil, .fail)
                 }
