@@ -24,8 +24,6 @@ class LogInViewModel: ViewModelType {
         let result: Signal<String>
     }
     
-   
-    
     func transform(_ input: Input) -> Output {
         let api = LogInAPI()
         let result = PublishSubject<String>()
@@ -36,8 +34,10 @@ class LogInViewModel: ViewModelType {
             api.postLogIn(userName, userPw).subscribe(onNext: { (response) in
                 print(response)
                 switch response {
-                case .ok: result.onCompleted()
-                case .serverError: result.onNext("로그인 실패")
+                case .ok:
+                    result.onCompleted()
+                case .serverError:
+                    result.onNext("로그인 실패")
                 default: print("오잉")
                 }
             }).disposed(by:self.disposeBag)
