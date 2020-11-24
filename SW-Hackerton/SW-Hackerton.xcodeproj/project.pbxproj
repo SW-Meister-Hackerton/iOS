@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		1BBD4B8F03E6672797F8BCB4 /* Pods_SW_Hackerton_SW_HackertonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF5203EFB43CF5AC88D0118E /* Pods_SW_Hackerton_SW_HackertonUITests.framework */; };
+		9F12C04F256BF9BA00053282 /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F12C04E256BF9BA00053282 /* ViewModelType.swift */; };
+		9F12C054256C2D2400053282 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F12C053256C2D2400053282 /* MainViewController.swift */; };
+		9F12C059256C868200053282 /* LogInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F12C058256C868200053282 /* LogInModel.swift */; };
+		9F12C05E256C869200053282 /* LogInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F12C05D256C869200053282 /* LogInViewModel.swift */; };
+		9F12C063256C86A300053282 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F12C062256C86A300053282 /* LogInViewController.swift */; };
+		9F12C069256C89AA00053282 /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F12C068256C89AA00053282 /* HttpClient.swift */; };
+		9F12C06F256C8C7500053282 /* MrsURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F12C06E256C8C7500053282 /* MrsURL.swift */; };
+		9F12C077256C8CD200053282 /* LogInAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F12C076256C8CD200053282 /* LogInAPI.swift */; };
 		9F1D8A45256BD9BD00BB589B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1D8A44256BD9BD00BB589B /* AppDelegate.swift */; };
 		9F1D8A49256BD9BD00BB589B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1D8A48256BD9BD00BB589B /* ViewController.swift */; };
 		9F1D8A4C256BD9BD00BB589B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F1D8A4A256BD9BD00BB589B /* Main.storyboard */; };
@@ -15,6 +23,12 @@
 		9F1D8A51256BD9BF00BB589B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F1D8A4F256BD9BF00BB589B /* LaunchScreen.storyboard */; };
 		9F1D8A5C256BD9BF00BB589B /* SW_HackertonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1D8A5B256BD9BF00BB589B /* SW_HackertonTests.swift */; };
 		9F1D8A67256BD9BF00BB589B /* SW_HackertonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1D8A66256BD9BF00BB589B /* SW_HackertonUITests.swift */; };
+		9FF9CE1C256CF8E0002C9F96 /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF9CE1B256CF8E0002C9F96 /* MainCell.swift */; };
+		9FF9CE21256CFBFA002C9F96 /* MainAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF9CE20256CFBFA002C9F96 /* MainAPI.swift */; };
+		9FF9CE26256D1B28002C9F96 /* RequsetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF9CE25256D1B28002C9F96 /* RequsetViewModel.swift */; };
+		9FF9CE2E256D22A8002C9F96 /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF9CE2D256D22A8002C9F96 /* MainModel.swift */; };
+		9FF9CE3E256D484D002C9F96 /* DetailMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF9CE3D256D484D002C9F96 /* DetailMainViewController.swift */; };
+		9FF9CE43256D7410002C9F96 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF9CE42256D7410002C9F96 /* DetailViewModel.swift */; };
 		9FFCB6D5256BDB8200E53F6D /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFCB6D4256BDB8200E53F6D /* TestModel.swift */; };
 		9FFCB6E9256BDE1D00E53F6D /* TestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFCB6E8256BDE1D00E53F6D /* TestViewModel.swift */; };
 		A29E98700BE8937F1C0F67B7 /* Pods_SW_HackertonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A91E85DFCE37F20699403B1A /* Pods_SW_HackertonTests.framework */; };
@@ -43,6 +57,17 @@
 		50C2771EB4A82BC5147C9209 /* Pods_SW_Hackerton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SW_Hackerton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D987CC7625EEF68C80DFA08 /* Pods-SW-Hackerton-SW-HackertonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SW-Hackerton-SW-HackertonUITests.debug.xcconfig"; path = "Target Support Files/Pods-SW-Hackerton-SW-HackertonUITests/Pods-SW-Hackerton-SW-HackertonUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		91E10FE86F8DEDC913AFAB41 /* Pods-SW-Hackerton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SW-Hackerton.release.xcconfig"; path = "Target Support Files/Pods-SW-Hackerton/Pods-SW-Hackerton.release.xcconfig"; sourceTree = "<group>"; };
+		9F12C04E256BF9BA00053282 /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
+		9F12C053256C2D2400053282 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9F12C058256C868200053282 /* LogInModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInModel.swift; sourceTree = "<group>"; };
+		9F12C05D256C869200053282 /* LogInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewModel.swift; sourceTree = "<group>"; };
+		9F12C062256C86A300053282 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		9F12C068256C89AA00053282 /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
+		9F12C06E256C8C7500053282 /* MrsURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MrsURL.swift; sourceTree = "<group>"; };
+		9F12C076256C8CD200053282 /* LogInAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInAPI.swift; sourceTree = "<group>"; };
+		9F12C07B256C97C600053282 /* NanumGothic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NanumGothic.otf; path = "../../../../../../../Volumes/OTF 나눔글꼴 모음 맥용/NanumGothic.otf"; sourceTree = "<group>"; };
+		9F12C07C256C97D500053282 /* NanumGothicBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NanumGothicBold.otf; path = "../../../../../../../Volumes/OTF 나눔글꼴 모음 맥용/NanumGothicBold.otf"; sourceTree = "<group>"; };
+		9F12C07D256C97E600053282 /* NanumGothicExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NanumGothicExtraBold.otf; path = "../../../../../../../Volumes/OTF 나눔글꼴 모음 맥용/NanumGothicExtraBold.otf"; sourceTree = "<group>"; };
 		9F1D8A41256BD9BD00BB589B /* SW-Hackerton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SW-Hackerton.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F1D8A44256BD9BD00BB589B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F1D8A48256BD9BD00BB589B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,11 +81,14 @@
 		9F1D8A62256BD9BF00BB589B /* SW-HackertonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SW-HackertonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F1D8A66256BD9BF00BB589B /* SW_HackertonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SW_HackertonUITests.swift; sourceTree = "<group>"; };
 		9F1D8A68256BD9BF00BB589B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FF9CE1B256CF8E0002C9F96 /* MainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
+		9FF9CE20256CFBFA002C9F96 /* MainAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAPI.swift; sourceTree = "<group>"; };
+		9FF9CE25256D1B28002C9F96 /* RequsetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequsetViewModel.swift; sourceTree = "<group>"; };
+		9FF9CE2D256D22A8002C9F96 /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		9FF9CE3D256D484D002C9F96 /* DetailMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMainViewController.swift; sourceTree = "<group>"; };
+		9FF9CE42256D7410002C9F96 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		9FFCB6D4256BDB8200E53F6D /* TestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
 		9FFCB6E8256BDE1D00E53F6D /* TestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewModel.swift; sourceTree = "<group>"; };
-		9FFCB6F3256BDFF900E53F6D /* NIXGONFONTS L 2.0.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NIXGONFONTS L 2.0.ttf"; path = "../../../../../Downloads/NIXGONFONTS L 2.0.ttf"; sourceTree = "<group>"; };
-		9FFCB6F4256BE00500E53F6D /* NIXGONFONTS M 2.0.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NIXGONFONTS M 2.0.ttf"; path = "../../../../../Downloads/NIXGONFONTS M 2.0.ttf"; sourceTree = "<group>"; };
-		9FFCB6F5256BE00A00E53F6D /* NIXGONFONTS B 2.0.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NIXGONFONTS B 2.0.ttf"; path = "../../../../../Downloads/NIXGONFONTS B 2.0.ttf"; sourceTree = "<group>"; };
 		A91E85DFCE37F20699403B1A /* Pods_SW_HackertonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SW_HackertonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFF10A48CC1A6490DD3E2B4F /* Pods-SW-Hackerton-SW-HackertonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SW-Hackerton-SW-HackertonUITests.release.xcconfig"; path = "Target Support Files/Pods-SW-Hackerton-SW-HackertonUITests/Pods-SW-Hackerton-SW-HackertonUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F05F9E21CE72A399232BE543 /* Pods-SW-Hackerton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SW-Hackerton.debug.xcconfig"; path = "Target Support Files/Pods-SW-Hackerton/Pods-SW-Hackerton.debug.xcconfig"; sourceTree = "<group>"; };
@@ -117,6 +145,17 @@
 				A91E85DFCE37F20699403B1A /* Pods_SW_HackertonTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F12C067256C899500053282 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				9F12C068256C89AA00053282 /* HttpClient.swift */,
+				9F12C06E256C8C7500053282 /* MrsURL.swift */,
+				9F12C076256C8CD200053282 /* LogInAPI.swift */,
+				9FF9CE20256CFBFA002C9F96 /* MainAPI.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 		9F1D8A38256BD9BD00BB589B = {
@@ -183,6 +222,8 @@
 			isa = PBXGroup;
 			children = (
 				9FFCB6D4256BDB8200E53F6D /* TestModel.swift */,
+				9F12C058256C868200053282 /* LogInModel.swift */,
+				9FF9CE2D256D22A8002C9F96 /* MainModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -191,6 +232,10 @@
 			isa = PBXGroup;
 			children = (
 				9F1D8A48256BD9BD00BB589B /* ViewController.swift */,
+				9F12C053256C2D2400053282 /* MainViewController.swift */,
+				9F12C062256C86A300053282 /* LogInViewController.swift */,
+				9FF9CE1B256CF8E0002C9F96 /* MainCell.swift */,
+				9FF9CE3D256D484D002C9F96 /* DetailMainViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -198,6 +243,7 @@
 		9FFCB6D9256BDB8E00E53F6D /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				9F12C067256C899500053282 /* Networking */,
 				9FFCB6E7256BDE0C00E53F6D /* ViewModel */,
 				9FFCB6D1256BDB5D00E53F6D /* UI */,
 				9FFCB6D2256BDB6300E53F6D /* Model */,
@@ -210,6 +256,9 @@
 			isa = PBXGroup;
 			children = (
 				9F1D8A4F256BD9BF00BB589B /* LaunchScreen.storyboard */,
+				9F12C07B256C97C600053282 /* NanumGothic.otf */,
+				9F12C07C256C97D500053282 /* NanumGothicBold.otf */,
+				9F12C07D256C97E600053282 /* NanumGothicExtraBold.otf */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -217,9 +266,6 @@
 		9FFCB6DB256BDC0C00E53F6D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9FFCB6F5256BE00A00E53F6D /* NIXGONFONTS B 2.0.ttf */,
-				9FFCB6F4256BE00500E53F6D /* NIXGONFONTS M 2.0.ttf */,
-				9FFCB6F3256BDFF900E53F6D /* NIXGONFONTS L 2.0.ttf */,
 				9F1D8A52256BD9BF00BB589B /* Info.plist */,
 			);
 			path = "Supporting Files";
@@ -229,6 +275,10 @@
 			isa = PBXGroup;
 			children = (
 				9FFCB6E8256BDE1D00E53F6D /* TestViewModel.swift */,
+				9F12C04E256BF9BA00053282 /* ViewModelType.swift */,
+				9F12C05D256C869200053282 /* LogInViewModel.swift */,
+				9FF9CE42256D7410002C9F96 /* DetailViewModel.swift */,
+				9FF9CE25256D1B28002C9F96 /* RequsetViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -471,9 +521,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FF9CE2E256D22A8002C9F96 /* MainModel.swift in Sources */,
+				9F12C077256C8CD200053282 /* LogInAPI.swift in Sources */,
+				9FF9CE21256CFBFA002C9F96 /* MainAPI.swift in Sources */,
+				9F12C069256C89AA00053282 /* HttpClient.swift in Sources */,
 				9F1D8A49256BD9BD00BB589B /* ViewController.swift in Sources */,
 				9F1D8A45256BD9BD00BB589B /* AppDelegate.swift in Sources */,
+				9F12C063256C86A300053282 /* LogInViewController.swift in Sources */,
+				9FF9CE1C256CF8E0002C9F96 /* MainCell.swift in Sources */,
 				9FFCB6E9256BDE1D00E53F6D /* TestViewModel.swift in Sources */,
+				9FF9CE26256D1B28002C9F96 /* RequsetViewModel.swift in Sources */,
+				9F12C054256C2D2400053282 /* MainViewController.swift in Sources */,
+				9FF9CE3E256D484D002C9F96 /* DetailMainViewController.swift in Sources */,
+				9F12C05E256C869200053282 /* LogInViewModel.swift in Sources */,
+				9FF9CE43256D7410002C9F96 /* DetailViewModel.swift in Sources */,
+				9F12C06F256C8C7500053282 /* MrsURL.swift in Sources */,
+				9F12C059256C868200053282 /* LogInModel.swift in Sources */,
+				9F12C04F256BF9BA00053282 /* ViewModelType.swift in Sources */,
 				9FFCB6D5256BDB8200E53F6D /* TestModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -652,7 +716,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "SW-Hackerton/Info.plist";
+				DEVELOPMENT_TEAM = 58Y84G7DJ2;
+				INFOPLIST_FILE = "SW-Hackerton/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -671,7 +736,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "SW-Hackerton/Info.plist";
+				DEVELOPMENT_TEAM = 58Y84G7DJ2;
+				INFOPLIST_FILE = "SW-Hackerton/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
