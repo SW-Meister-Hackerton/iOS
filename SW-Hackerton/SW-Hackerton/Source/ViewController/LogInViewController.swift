@@ -69,6 +69,11 @@ extension UIViewController {
         navigationController?.pushViewController(viewController!, animated: true)
     }
     
+    func popView(identifire: String) {
+
+        navigationController?.popViewController(animated: true)
+    }
+    
     func setButton(_ button: UIButton) {
         var gradientLayer: CAGradientLayer!
         
