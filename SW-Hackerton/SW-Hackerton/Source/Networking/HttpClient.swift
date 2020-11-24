@@ -12,7 +12,7 @@ import RxSwift
 import RxAlamofire
 
 class HttpClient {
-    let baseURI = "http://172.30.1.48:8787" 
+    let baseURI = "http://0.0.0.0:8787/"
     
     typealias HttpResult = Observable<(HTTPURLResponse, Data)>
 
