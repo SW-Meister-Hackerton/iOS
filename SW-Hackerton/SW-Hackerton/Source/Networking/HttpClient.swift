@@ -25,7 +25,7 @@ class HttpClient {
     }
 
     func post(api: MrsURL, params: [String: Any]?) -> HttpResult {
-        return requestData(.post, baseURI + api.path(), parameters: params, encoding: JSONEncoding.prettyPrinted, headers: api.header())
+        return requestData(.post, baseURI + api.path(), parameters: params, encoding: JSONEncoding.prettyPrinted, headers: api.header(), interceptor: nil)
     }
    
     func delete(path: String, param: [String: Any], headers: HTTPHeaders) -> DataRequest {
